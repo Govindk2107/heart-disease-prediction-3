@@ -60,7 +60,8 @@ h1, h2, h3, h4, label, .stMarkdown p, .stCaption, [data-testid="stMetricLabel"] 
     60% { transform: scale(1.18); }
 }
 .beat { display: inline-block; animation: beat 1.3s infinite; }
-.hero-title { font-size: clamp(3rem, 7vw, 6.5rem); font-weight: 900; line-height: 1.0; margin: 0; }
+.hero-title { font-size: clamp(3.2rem, 7.5vw, 7rem) !important; font-weight: 900 !important; line-height: 1.0 !important; margin: 0 !important; }
+.hero-title .grad, .hero-title .beat { font-size: inherit !important; font-weight: inherit !important; }
 .grad {
     background: linear-gradient(90deg, #ff758c, #ff7eb3, #ffb199);
     -webkit-background-clip: text; background-clip: text;
