@@ -46,7 +46,8 @@ st.markdown(
 .stApp {
     background: radial-gradient(circle at 15% 10%, #3b0a2a 0%, #14081f 45%, #070b1a 100%);
 }
-.block-container { padding-top: 2rem; max-width: 1200px; }
+.block-container { padding-top: 5.5rem; max-width: 1200px; }
+header[data-testid="stHeader"] { background: transparent; }
 h1, h2, h3, h4, label, .stMarkdown p, .stCaption, [data-testid="stMetricLabel"] {
     color: #f1f5f9 !important;
 }
