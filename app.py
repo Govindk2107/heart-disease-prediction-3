@@ -60,7 +60,7 @@ h1, h2, h3, h4, label, .stMarkdown p, .stCaption, [data-testid="stMetricLabel"] 
     60% { transform: scale(1.18); }
 }
 .beat { display: inline-block; animation: beat 1.3s infinite; }
-.hero-title { font-size: clamp(2.8rem, 6vw, 5rem); font-weight: 900; line-height: 1.05; margin: 0; }
+.hero-title { font-size: clamp(3rem, 7vw, 6.5rem); font-weight: 900; line-height: 1.0; margin: 0; }
 .grad {
     background: linear-gradient(90deg, #ff758c, #ff7eb3, #ffb199);
     -webkit-background-clip: text; background-clip: text;
@@ -213,7 +213,7 @@ st.sidebar.markdown("---")
 st.sidebar.caption("By Govind Khatile")
 
 # ------------------------------------------------------------------ HERO
-left, right = st.columns([3, 2])
+left, right = st.columns([7, 4])
 with left:
     st.markdown(
         '<p class="hero-title"><span class="beat">❤️</span> '
